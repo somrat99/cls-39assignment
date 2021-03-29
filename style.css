@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.full-div{
+    margin: 10px auto;
+    max-width: 1280px;
+}
+.header{
+    background-color:#22c3a3 ;
+    padding: 20px;
+}
+.logo{
+    float: left;
+    text-align: center;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.menubar{
+    float: right;
+
+}
+.menubar ul{}
+.menubar ul li{
+    text-align: right;
+    display: inline-block;
+    margin-right: -4px;
+}
+.menubar ul li a{
+    text-decoration: none;color: white;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    transition: .4s;
+}
+.menubar ul li a:hover{
+    color: #e67e22;
+}
+.banner{
+    background-image: url(https://i.ibb.co/mhfRQVL/144575774-248682646711414-5779685905002572419-n.jpg);
+    height: 530px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner h1{
+    color: white;
+    display: inline-block;
+    margin-top: 200px;
+    
+}
+.banner p{
+    color: white;
+    display: block;
+    font-size: 23px;
+    margin-top: 15px;
+
+}
+.banner a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px ;
+    margin-top: 20px;
+    display: inline-block;
+    transition: .4s;
+}
+.banner a:hover{
+    background-color:white;
+    color: #22c3a3;
+    border-color:#22c3a3;
+}
+.service{
+    text-align: center;
+    padding: 50px;
+}
+.service h2{
+    padding-bottom: 18px;
+    display: inline-block;
+    font-size: 30px;
+    color: #555555;
+
+}
+.service p{
+    color: #8b8585;
+}
+/* service3 */
+
+.service3{
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 20px;
+    border-bottom: 2px solid #0dbf9b;
+}
+.service3-item{
+    width:25%;
+    float: left;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    transition: .4s;
+}
+.service3-item span{
+    display: block;
+    height: 50px;
+    width: 50px;
+    color: #0dbf9b;
+    margin: auto;
+    font-size: 40px;
+}
+.service3-item:hover span{
+    color: #3498db;
+}
+.service3-item h3{
+    margin: 10px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    color: #555555;
+}
+.service3-item p{
+    color: #8b8585;
+}
+.about{
+    padding: 50px 0;
+    text-align: center;
+}
+.about h2{
+    font-size: 30px;
+    color: #555555;
+
+}
+.about p{
+    margin-top: 20px;
+    color: #8b8585;
+}
+/* contant */
+.contant{
+    padding-bottom: 80px;
+}
+img{
+    width: 600px;
+    height: auto;
+    
+}
+.imgdiv{
+    float: left;
+    width: 50%;
+    margin-left: 15px;
+}
+.contant-text{
+    float: right;
+    width: 46%;
+}
+.text1 h2{
+    padding-bottom: 10px;
+}
+.text2 h2{
+    padding-bottom: 10px;
+    
+}
+.text3 h2{
+    padding-bottom: 10px;
+}
+.text1{
+    padding-bottom: 45px;
+}
+.text2{
+    padding-bottom: 45px;
+}
+.contant-text p{
+    color: #8b8585;
+}
+.contant-text h2{
+    color: #666666;
+
+}
+/* contact */
+
+.contact{
+    background-color: #f6f6f6;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.contact2nd{
+    text-align: center;
+}
+.contact2nd h2{
+    padding-bottom: 23px;
+    font-size: 30px;
+    color: #555555;
+}
+.contact2nd p{
+     color: #8b8585;
+}
+.contactall{
+    text-align: center;
+    margin-top: 55px;
+    box-sizing: border-box;
+
+}
+.mycontact{
+    float: left;
+    width: 33%;
+    transition: .4s;
+}
+.mycontact:hover span a{
+    color: #3498db;
+}
+.mycontact span a{
+    color: #0dbf9b;
+    font-size: 20px;
+}
+.mycontact p{
+    color: #8b8585;
+}
+/* footer */
+.footer{
+    background-color: #22c3a3;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer ul li{
+    display: inline-block;
+
+}
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px;
+    transition: .4s;
+}
+.footer ul li a:hover{
+    color: #e67e22;
+}
+/* end */
+.end{
+    background-color: #222222;
+    text-align: center;
+    padding: 10px 0;
+
+}
+.end p{
+    color: #645d58;
+    transition: .4s;
+}
+.end p:hover{
+    color:  #0dbf9b;
+}
